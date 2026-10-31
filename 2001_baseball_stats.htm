@@ -1,0 +1,988 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 9">
+<link rel=File-List href="./2001_baseball_stats_files/filelist.xml">
+<link rel=Edit-Time-Data href="./2001_baseball_stats_files/editdata.mso">
+<link rel=OLE-Object-Data href="./2001_baseball_stats_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>pcork</o:Author>
+  <o:LastAuthor>pcork</o:LastAuthor>
+  <o:LastPrinted>2003-07-25T15:56:07Z</o:LastPrinted>
+  <o:Created>2003-07-25T15:55:06Z</o:Created>
+  <o:LastSaved>2003-07-25T15:56:57Z</o:LastSaved>
+  <o:Company>NCAA</o:Company>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:msowc.cab"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.2in .2in .2in .2in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font6
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-protection:unlocked visible;}
+.xl25
+	{mso-style-parent:style0;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl26
+	{mso-style-parent:style0;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl27
+	{mso-style-parent:style0;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-protection:unlocked visible;}
+.xl28
+	{mso-style-parent:style0;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl29
+	{mso-style-parent:style0;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl30
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\.000";
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl31
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\.000";
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl32
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl33
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl34
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\.000";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl35
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-protection:unlocked visible;}
+.xl36
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl37
+	{mso-style-parent:style0;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\#\\ ?\/?";
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl38
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl39
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl40
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl41
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	mso-protection:unlocked visible;}
+.xl42
+	{mso-style-parent:style0;
+	text-align:center;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>3</x:ActiveRow>
+       <x:ActiveCol>3</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet4</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet5</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet6</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet7</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet8</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet9</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet10</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>9090</x:WindowHeight>
+  <x:WindowWidth>15180</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>135</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=727 style='border-collapse:
+ collapse;table-layout:fixed;width:548pt'>
+ <col width=117 style='mso-width-source:userset;mso-width-alt:4278;width:88pt'>
+ <col width=61 span=10 style='mso-width-source:userset;mso-width-alt:2230;
+ width:46pt'>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 width=117 style='height:12.75pt;width:88pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'><span style="mso-spacerun:
+  yes">                                       </span><font class=font6>2001
+  CHAIR BASEBALL STATISTICS (FINAL STATS)</font></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl25 width=61 style='width:46pt'></td>
+  <td class=xl26 width=61 style='width:46pt'></td>
+  <td class=xl26 width=61 style='width:46pt'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 style='height:12.75pt'>Name</td>
+  <td class=xl28>G</td>
+  <td class=xl28>AB</td>
+  <td class=xl28>R</td>
+  <td class=xl28>H</td>
+  <td class=xl28>2B</td>
+  <td class=xl28>3B</td>
+  <td class=xl28>HR</td>
+  <td class=xl28>RBI</td>
+  <td class=xl29>SLG.</td>
+  <td class=xl29>AVG.</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Chris Cork</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>38</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>14</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl30 x:num="0.94736842105263153">.947</td>
+  <td class=xl30 x:num="0.36842105263157893">.368</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Patrick Cork</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>155</td>
+  <td class=xl25 x:num>41</td>
+  <td class=xl25 x:num>73</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>27</td>
+  <td class=xl25 x:num>46</td>
+  <td class=xl30 x:num="1.0387096774193549">1.039</td>
+  <td class=xl30 x:num="0.47096774193548385">.471</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Tony Cork</td>
+  <td class=xl25 x:num>7</td>
+  <td class=xl25 x:num>94</td>
+  <td class=xl25 x:num>10</td>
+  <td class=xl25 x:num>31</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>7</td>
+  <td class=xl30 x:num="0.36170212765957449">.362</td>
+  <td class=xl30 x:num="0.32978723404255317">.330</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Greg Howard</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl25 x:num>130</td>
+  <td class=xl25 x:num>18</td>
+  <td class=xl25 x:num>37</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>8</td>
+  <td class=xl25 x:num>15</td>
+  <td class=xl30 x:num="0.52307692307692311">.523</td>
+  <td class=xl30 x:num="0.2846153846153846">.285</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dustin Waldrop</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>78</td>
+  <td class=xl25 x:num>18</td>
+  <td class=xl25 x:num>23</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>29</td>
+  <td class=xl30 x:num="0.76923076923076927">.769</td>
+  <td class=xl30 x:num="0.29487179487179488">.295</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Lyndell Wright</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl25 x:num>136</td>
+  <td class=xl25 x:num>20</td>
+  <td class=xl25 x:num>37</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>9</td>
+  <td class=xl25 x:num>17</td>
+  <td class=xl30 x:num="0.51470588235294112">.515</td>
+  <td class=xl30 x:num="0.27205882352941174">.272</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Williamson</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>36</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl30 x:num="0.41666666666666669">.417</td>
+  <td class=xl30 x:num="0.1388888888888889">.139</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Massey</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl25 x:num>144</td>
+  <td class=xl25 x:num>16</td>
+  <td class=xl25 x:num>33</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>10</td>
+  <td class=xl30 x:num="0.34722222222222221">.347</td>
+  <td class=xl30 x:num="0.22916666666666666">.229</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dan Inboden</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>58</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl30 x:num="0.41379310344827586">.414</td>
+  <td class=xl30 x:num="0.20689655172413793">.207</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Robert Trimble</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>43</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl30 x:num="0.53488372093023251">.535</td>
+  <td class=xl30 x:num="0.30232558139534882">.302</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Ryan Tomlinson</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>41</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>10</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl30 x:num="0.24390243902439024">.244</td>
+  <td class=xl30 x:num="0.24390243902439024">.244</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Justin Massey</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl30 x:num="8.3333333333333329E-2">.083</td>
+  <td class=xl30 x:num="8.3333333333333329E-2">.083</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Ross Massey</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>59</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl30 x:num="0.2711864406779661">.271</td>
+  <td class=xl30 x:num="0.22033898305084745">.220</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Kirby Newell</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>16</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl30 x:num="0.125">.125</td>
+  <td class=xl30 x:num="0.125">.125</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Judy Cork</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl30 x:num="7.6923076923076927E-2">.077</td>
+  <td class=xl30 x:num="7.6923076923076927E-2">.077</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Caleb Mendenhall</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>7</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl31 x:num="0.5714285714285714">.571</td>
+  <td class=xl31 x:num="0.14285714285714285">.143</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>TOTALS</td>
+  <td class=xl33 x:num>86</td>
+  <td class=xl33 x:num>1060</td>
+  <td class=xl33 x:num>151</td>
+  <td class=xl33 x:num>306</td>
+  <td class=xl33 x:num>28</td>
+  <td class=xl33 x:num>8</td>
+  <td class=xl33 x:num>75</td>
+  <td class=xl33 x:num>147</td>
+  <td class=xl34 style='border-top:none' x:num="0.54245283018867929">.542</td>
+  <td class=xl34 style='border-top:none' x:num="0.28867924528301886">.289</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl35 style='height:12.75pt'>Pitching</td>
+  <td class=xl28>G</td>
+  <td class=xl28>IP</td>
+  <td class=xl28>W</td>
+  <td class=xl28>L</td>
+  <td class=xl28>R</td>
+  <td class=xl28>ER</td>
+  <td class=xl28>H</td>
+  <td class=xl28>K</td>
+  <td class=xl29>S</td>
+  <td class=xl29>ERA</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Tony Cork</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>37</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>21</td>
+  <td class=xl25 x:num>18</td>
+  <td class=xl25 x:num>51</td>
+  <td class=xl25 x:num>15</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num="4.378378378378379">4.38</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Patrick Cork</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25 x:num>31</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>22</td>
+  <td class=xl25 x:num>49</td>
+  <td class=xl26>1</td>
+  <td class=xl36 x:num="1.7419354838709677">1.74</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Greg Howard</td>
+  <td class=xl25 x:num>8</td>
+  <td class=xl25 x:num>43</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>29</td>
+  <td class=xl25 x:num>28</td>
+  <td class=xl25 x:num>65</td>
+  <td class=xl25 x:num>22</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num="5.8604651162790704">5.86</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dustin Waldrop</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>19</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl26>1</td>
+  <td class=xl36 x:num="10.636363636363637">10.64</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Lyndell Wright</td>
+  <td class=xl25 x:num>8</td>
+  <td class=xl37 x:num="44.333333333333336">44 1/3</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>24</td>
+  <td class=xl25 x:num>24</td>
+  <td class=xl25 x:num>51</td>
+  <td class=xl25 x:num>36</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num="4.8721804511278197">4.87</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Massey</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl37 x:num="48.666666666666664">48 2/3</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>23</td>
+  <td class=xl25 x:num>21</td>
+  <td class=xl25 x:num>44</td>
+  <td class=xl25 x:num>39</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num="3.8835616438356166">3.88</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Robert Trimble</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl37 x:num="9.3333333333333339">9 1/3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>15</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl26>1</td>
+  <td class=xl36 x:num="11.571428571428569">11.57</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Helton</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num>13.50</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Ryan Tomlinson</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>11</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>13</td>
+  <td class=xl25 x:num>12</td>
+  <td class=xl25 x:num>14</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num="9.8181818181818166">9.82</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Kirby Newell</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl37 x:num="0.33333333333333331"><span style="mso-spacerun:
+  yes"> </span>1/3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num>0.00</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Williamson</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>8</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num>3.00</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Ross Massey</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25 x:num>6</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num>6.75</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Caleb Mendenhall</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl37 x:num="0.33333333333333331"><span style="mso-spacerun:
+  yes"> </span>1/3</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl26>0</td>
+  <td class=xl36 x:num>54.00</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dan Inboden</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>7</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25 x:num>9</td>
+  <td class=xl25 x:num>4</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl38 x:num="2.5714285714285712">2.57</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>TOTALS</td>
+  <td class=xl39 x:num>46</td>
+  <td class=xl39 x:num>255</td>
+  <td class=xl39 x:num>15</td>
+  <td class=xl39 x:num>15</td>
+  <td class=xl39 x:num>156</td>
+  <td class=xl39 x:num>146</td>
+  <td class=xl39 x:num>312</td>
+  <td class=xl39 x:num>179</td>
+  <td class=xl39 x:num>3</td>
+  <td class=xl40 style='border-top:none' x:num="5.1529411764705877">5.15</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl35 style='height:12.75pt'>Defense</td>
+  <td class=xl28>Errors</td>
+  <td class=xl25></td>
+  <td class=xl28>Assists</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl41 x:str="Avg./Game  ">Avg./Game<span
+  style="mso-spacerun: yes">  </span></td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Patrick Cork</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>15</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl42>AB/player</td>
+  <td class=xl42 x:num>12.3</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Greg Howard</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>8</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>Runs</td>
+  <td class=xl25 x:num>10.1</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Tony Cork</td>
+  <td class=xl25 x:num>2</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>2</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>HR</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dustin Waldrop</td>
+  <td class=xl25 x:num>1</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>2</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>Hits</td>
+  <td class=xl25 x:num>20.4</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Lyndell Wright</td>
+  <td class=xl25 x:num>5</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>3</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>Assts.</td>
+  <td class=xl25 x:num>2.5</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Chris Cork</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>1</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>Errors</td>
+  <td class=xl25 x:num="00.8">0.8</td>
+  <td class=xl25></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Massey</td>
+  <td class=xl25 x:num>3</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>5</td>
+  <td colspan=5 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Josh Williamson</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>1</td>
+  <td colspan=5 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'>Dan Inboden</td>
+  <td class=xl25 x:num>0</td>
+  <td class=xl25></td>
+  <td class=xl25 x:num>1</td>
+  <td colspan=5 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl26 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>TOTALS</td>
+  <td class=xl39 x:num>12</td>
+  <td class=xl39>&nbsp;</td>
+  <td class=xl39 x:num>38</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=117 style='width:88pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=61 style='width:46pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
